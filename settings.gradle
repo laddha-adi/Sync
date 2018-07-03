@@ -1,0 +1,4 @@
+rootProject.name = 'Sync'
+include 'src'
+findProject(':src')?.name = 'Sync'
+
