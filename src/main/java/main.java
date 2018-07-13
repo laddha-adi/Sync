@@ -21,17 +21,19 @@ public class main {
     }
 
     private void setUp() throws Exception {
-        agg_url = "https://odkserver-209114.appspot.com";
-        appId = "odkserver-209114";
+        agg_url = "http://ec2-52-25-205-39.us-west-2.compute.amazonaws.com";
+        appId = "default";
 
-        userName = "Admin";
-        password = "aggregate";
+        userName = "bsmith";
+        password = "pass";
+
         URL url = new URL(agg_url);
         host = url.getHost();
-        version = "2";
 
         SyncClient wc = new SyncClient();
         wc.init(host, userName, password);
+
+       // Thread.sleep(10000);
         wc.getUsers(agg_url,appId);
         wc.close();
     }
