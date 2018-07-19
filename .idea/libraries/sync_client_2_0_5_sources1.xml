@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sync-client-2.0.5-sources1">
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../sync-client-master/target/sync-client-2.0.5-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
